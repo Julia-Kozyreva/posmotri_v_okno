@@ -183,3 +183,33 @@ gap: 30px;
   background: #fff;
   display: block;
 }
+
+.search-form__label-text:hover {
+  cursor: pointer;
+  text-decoration:underline; 
+}
+
+.button {
+  border: 1px solid #fff;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  background: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  text-decoration:underline;
+}
+
+.search-form__submit-button {
+  width: 194px;
+  height: 34px;
+}
+
+.more-button {
+  width: 399px;
+  height: 34px;
+}
