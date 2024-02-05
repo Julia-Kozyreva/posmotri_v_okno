@@ -94,7 +94,7 @@ ol {
 
 .content__video-card {
   display: flex;
-  gap: 30px;
+  width: 399px;
 }
 
 .content__video-card-thumbnail {
@@ -222,7 +222,8 @@ ol {
 }
 
 .more-button {
-  padding: 6px 146.5px;
+  padding: 6px 0px;
+  width: 400px;
 }
 
 .search-form__textfield {
