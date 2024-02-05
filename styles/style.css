@@ -94,7 +94,6 @@ ol {
 
 .content__video-card {
   display: flex;
-  width: 399px;
 }
 
 .content__video-card-thumbnail {
@@ -104,7 +103,8 @@ ol {
 }
 
 .content__video-card-description-container {
-  width: 100%;
+  width: 200px;
+  overflow: hidden;
 }
 
 .search-form__fieldset-title {
@@ -131,6 +131,11 @@ ol {
   text-decoration: none;
   display: block;
   margin: 3px;
+}
+
+.content__card-link:hover {
+  text-decoration: underline;
+  color: #fff;
 }
 
 .content__video-card-title {
@@ -223,7 +228,7 @@ ol {
 
 .more-button {
   padding: 6px 0px;
-  width: 400px;
+  width: 100%;
 }
 
 .search-form__textfield {
