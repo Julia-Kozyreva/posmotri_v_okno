@@ -9,9 +9,7 @@ html {
 }
 
 .page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-top: 40px;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -40,7 +38,7 @@ ol {
   list-style: none;
 }
 
-.page .content {
+.content {
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -50,6 +48,8 @@ ol {
 .result {
   display: flex;
   flex-direction: column;
+  margin-bottom: 5px;
+  margin-left: 6px;
   gap: 16px;
 }
 
@@ -85,7 +85,8 @@ ol {
 }
 
 .content__list-item {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
+  
 }
 
 .content__list-item:last-child {
@@ -121,6 +122,8 @@ ol {
   line-height: 94%;
   text-transform: uppercase;
   color: #fff;
+  margin-top: 30px;
+  margin-left: 5px;
 }
 
 .content__accent {
@@ -147,6 +150,9 @@ ol {
   color: #fff;
   margin-top: 5px;
   margin-bottom: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .content__video-card-description {
@@ -167,7 +173,10 @@ ol {
 }
 
 .search-form__fieldset {
+  display: flex;
+  flex-direction: column;
   border: none;
+  gap: 5px;
 }
 
 .search-form__label {
@@ -229,6 +238,11 @@ ol {
 .more-button {
   padding: 6px 0px;
   width: 100%;
+}
+
+.more-button:focus {
+  outline: 1px solid #fff;
+  outline-offset: 2px;
 }
 
 .search-form__textfield {
