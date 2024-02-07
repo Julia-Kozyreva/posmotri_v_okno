@@ -47,16 +47,11 @@ ol {
   gap: 30px;
 }
 
-.result {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
 .result__video-container {
   position: relative;
   width: 711px;
   height: 386px;
+  margin-bottom: 18px;
 }
 
 .result__video {
@@ -68,7 +63,7 @@ ol {
 .search-form {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: start;
 }
 
 .content__details {
