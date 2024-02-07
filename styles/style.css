@@ -109,6 +109,11 @@ ol {
   color: #fff;
 }
 
+.search-form__fieldset-title:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .title {
   font-family: Oswald, sans-serif;
   font-weight: 700;
@@ -205,6 +210,11 @@ ol {
   cursor: pointer;
 }
 
+.search-form__label-text:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .button {
   width: 194px;
   border: 1px solid currentColor;
@@ -221,6 +231,7 @@ ol {
   cursor: pointer;
   text-decoration: underline;
 }
+
 .button:active {
   background: #545050;
 }
